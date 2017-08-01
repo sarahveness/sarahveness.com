@@ -1,4 +1,7 @@
 .git/
 .DS_Store
+css/navigation.scss
 css/navigation.css.map
+css/withstyle.scss
+css/withstyle.css.map
 .sass-cache

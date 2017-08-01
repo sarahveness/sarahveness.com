@@ -5,7 +5,7 @@ body {
 .container {
   position: absolute;
   width: 100%;
-  height: 100%;
+  heigh: 100%;
   text-align: center;
   top: 40%;
   left: 0;
@@ -17,7 +17,7 @@ body {
     display: inline-block;
     position: relative;
     text-align: center;
-    color: white;
+    color: #FF5252;
     text-decoration: none;
     font-size: 20px;
     overflow: hidden;
@@ -25,7 +25,7 @@ body {
     .container a:after {
       content: '';
       position: absolute;
-      background: #EEFF72;
+      background: #FF5252;
       height: 2px;
       width: 0%;
       transform: translateX(-50%);
@@ -61,7 +61,7 @@ h1 {
     transform: translateY(-10px) translateX(0) rotate(-45deg);
     background: #FFF; }
   .button_container span {
-    background: white;
+    background: #FF5252;
     border: none;
     height: 5px;
     width: 100%;
@@ -87,7 +87,7 @@ h1 {
   z-index: 50; }
   .overlay:before {
     content: '';
-    background: #EEFF72;
+    background: #FF5252;
     left: -55%;
     top: 0;
     width: 50%;
@@ -96,7 +96,7 @@ h1 {
     transition: left .35s ease; }
   .overlay:after {
     content: '';
-    background: #EEFF72;
+    background: #FF5252;
     right: -55%;
     top: 0;
     width: 50%;
@@ -126,7 +126,7 @@ h1 {
     top: 50%;
     transform: translateY(-50%);
     font-size: 50px;
-    font-family: 'Lato', serif;
+    font-family: '', serif;
     font-weight: 400;
     text-align: center;
     z-index: 100; }
